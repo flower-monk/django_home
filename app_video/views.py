@@ -3,6 +3,6 @@ from django.shortcuts import render, HttpResponse
 # Create your views here.
 def index(request):
 
-    data = {'name': 'cong', 'age': 18}
+    data = {'name': 'not Found', 'age': 18}
 
     return render(request, 'test.html', data)
