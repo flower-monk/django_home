@@ -5,4 +5,10 @@ def index(request):
 
     data = {'name': 'not Found', 'age': 18}
 
-    return render(request, 'test.html', data)
+    return render(request, 'index.html', data)
+
+def accordion(request):
+
+    data = {'name': 'not Found', 'age': 18}
+
+    return render(request, 'accordion.html', data)
