@@ -3,5 +3,5 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('', views.accordion, name='accordion')
+    path(r'/accordion', views.accordion, name='accordion')
 ]
