@@ -23,6 +23,7 @@
   <body>
     {% block content %}
     {% endblock %}
+    {% block js %}
     <!-- Libs JS -->
     <script src="{{ static('./dist/libs/apexcharts/dist/apexcharts.min.js') }}" defer></script>
     <script src="{{ static('./dist/libs/jsvectormap/dist/js/jsvectormap.min.js') }}" defer></script>
@@ -31,6 +32,7 @@
     <!-- Tabler Core -->
     <script src="{{ static('./dist/js/tabler.min.js') }}" defer></script>
     <script src="{{ static('./dist/js/demo.min.js') }}" defer></script>
+    {% endblock %}
     {% block script %}
     <script>
         // @formatter:off
