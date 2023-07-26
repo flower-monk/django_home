@@ -21,8 +21,11 @@
     </style>
   </head>
   <body>
+    {% include 'navbar.html' %}
+    {% include 'header.html' %}
     {% block content %}
     {% endblock %}
+    {% include 'footer.html' %}
     {% block js %}
     <!-- Libs JS -->
     <script src="{{ static('./dist/libs/apexcharts/dist/apexcharts.min.js') }}" defer></script>

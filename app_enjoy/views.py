@@ -12,3 +12,10 @@ def accordion(request):
     data = {'name': 'not Found', 'age': 18}
 
     return render(request, 'accordion.html', data)
+
+
+def video(request):
+
+    data = {'name': 'not Found', 'age': 18}
+
+    return render(request, 'video.html', data)
